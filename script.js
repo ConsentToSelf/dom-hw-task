@@ -72,3 +72,18 @@ false так ul НЕ является родительским элементо�
 // );
 // console.log(result);
 
+// third
+// const link = document.querySelectorAll("a");
+// function takeCare([...link]) {
+//   const ulParent = document.querySelector("ul");
+//   let state = [];
+//   for (let i = 0; i < link.length; i++) {
+//     if (link[i].parentNode.parentElement !== ulParent) {
+//       state.push(link[i]);
+//     } else {
+//       continue;
+//     }
+//   }
+//   return state;
+// }
+// console.log(takeCare(link));
