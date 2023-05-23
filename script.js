@@ -21,7 +21,7 @@
 "use strict";
 // const head = document.querySelector("head");
 // console.log(head);
-// const body = document.querySelector("body");
+const body = document.querySelector("body");
 // console.log(body);
 // const div = document.querySelector("div");
 // // console.log(body.childNodes);
@@ -73,6 +73,11 @@ false так ul НЕ является родительским элементо�
 // console.log(result);
 
 // third
+/*
+Используя разметку из предыдущего задания.
+
+Получить список всех ссылок, которые не находятся внутри списка ul.
+*/
 // const link = document.querySelectorAll("a");
 // function takeCare([...link]) {
 //   const ulParent = document.querySelector("ul");
@@ -87,3 +92,14 @@ false так ul НЕ является родительским элементо�
 //   return state;
 // }
 // console.log(takeCare(link));
+
+// fourth
+/*
+Используя разметку из предыдущего задания.
+
+Найти элемент, который находится перед и после списка ul.
+*/
+// console.log([...body.children]);
+const ul = document.querySelector("ul");
+console.log(ul.nextElementSibling);
+console.log(ul.previousElementSibling);
